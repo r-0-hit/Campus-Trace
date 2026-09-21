@@ -1,0 +1,1 @@
+"""Campus Trace backend package."""

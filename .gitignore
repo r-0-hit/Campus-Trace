@@ -1,0 +1,31 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# JavaScript
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Database and generated ML assets
+*.sqlite3
+*.db
+ml/models/*.joblib
+ml/models/*.pkl
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
